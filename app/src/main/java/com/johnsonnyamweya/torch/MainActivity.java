@@ -41,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
                 if (isTorchOn) {
                     //Turn off the torch
                     isTorchOn = false;
-                    btnTorch.setText("TURN ON TORCH");
+                    btnTorch.setText("TURN OFF TORCH");
                 }else {
                     //Turn on the torch
                     isTorchOn = true;
-                    btnTorch.setText("TURN OFF TORCH");
+                    btnTorch.setText("TURN ON TORCH");
                 }
 
                         }
